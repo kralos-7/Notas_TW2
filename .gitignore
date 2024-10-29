@@ -1,0 +1,5 @@
+# ignore node_modules
+code/nodejs/proyecto_0/node_modules
+code/nodejs/proyecto_0/package-lock.json
+code/nodejs/proyecto_1/node_modules
+code/nodejs/proyecto_1/package-lock.json
