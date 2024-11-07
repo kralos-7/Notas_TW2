@@ -1,0 +1,14 @@
+# Descargamos la imagen
+FROM mariadb
+
+# Asignamos valor 
+ENV "MARIADB_USER"="umarino"
+ENV "MARIADB_PASSWORD"="12345678"
+ENV "MARIADB_DATABASE"="crud_phonebook"
+ENV "MARIADB_ROOT_PASSWORD"="12345678"
+
+# Definimos una BD
+COPY database/ /docker-entrypoint-initdb.d/
+
+# Exponemos el puerto del contenedor
+EXPOSE 3306
