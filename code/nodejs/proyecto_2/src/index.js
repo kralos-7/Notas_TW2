@@ -32,12 +32,11 @@ app.get('/api/v1/phones', async (req, res) => {
 app.get('/api/v1/phones/:id', async (req, res) => {
     try {
         const result = await conecta.query("select * from phone_book where id = ?", [req.params.id]);
-
         if (result.length > 0) {
-            res.send('Usuario encontrado'); 
+            res.send(result[0]);
         } else {
             res.send('Usuario no encontrado');
-        }        
+        }                
     } catch (err) {
         throw err;
     }
