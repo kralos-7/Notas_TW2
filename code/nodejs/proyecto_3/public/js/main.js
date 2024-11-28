@@ -12,7 +12,7 @@ function test_axios(){
 
     axios.get('https://jsonplaceholder.typicode.com/posts')
         .then(response => {
-            const data = response.data.slice(0, 5); // Tomar elementos para ejemplo
+            const data = response.data.slice(0, 15); // Tomar elementos para ejemplo
             const table = document.createElement('table');
             table.className = 'table table-striped table-bordered';
 
