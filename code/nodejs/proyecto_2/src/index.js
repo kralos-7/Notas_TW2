@@ -1,5 +1,6 @@
 const express = require('express');
 const mariadb = require('mariadb');
+const cors = require('cors');
 
 const app = express();
 const hostname = '127.0.0.1';
@@ -12,6 +13,9 @@ const conecta = mariadb.createPool({
     database: 'crud_phonebook',
     port: '3306'
 })
+
+// Permitir solicitudes desde cualquier origen
+app.use(cors());
 
 app.use(express.json());
 

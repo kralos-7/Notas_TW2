@@ -11,7 +11,6 @@ app.use('/js', express.static(path.join(__dirname, 'node_modules/popper.js/dist'
 app.use('/js', express.static(path.join(__dirname, 'node_modules/axios/dist')))
 app.use('/js', express.static(path.join(__dirname, 'public/js')))
 
-
 app.get("/", (req, res) => {
     res.sendFile(path.join(__dirname, 'views/index.html'))
 });
