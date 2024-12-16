@@ -1,0 +1,13 @@
+# Descargamos la imagen
+FROM mongo
+
+# Declaramos las variables de entorno
+ENV "MONGO_INITDB_ROOT_USERNAME"="umarino"
+ENV "MONGO_INITDB_ROOT_PASSWORD"="12345678"
+ENV "MONGO_INITDB_DATABASE": "alumnos"
+
+# Definimos una BD
+COPY database/init-mongo.js /docker-entrypoint-initdb.d/
+
+# Exponemos el puerto del contenedor
+EXPOSE 27017
