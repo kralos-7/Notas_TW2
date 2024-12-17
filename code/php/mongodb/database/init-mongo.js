@@ -404,6 +404,136 @@ db[collectionName].insertOne({
     }
 });
 
+db[collectionName].insertOne({
+    materia: "Tecnologias Web II",
+    semestre: "24-25A",
+    alumno: {
+        nombreApellidos: "Luciano Martinez",
+        matricula: "11349011",
+        calificaciones: [
+            { parciales: [{ numero: "1", nota: "6" }, { numero: "2", nota: "7" }, { numero: "3", nota: "6" }] },
+            { ordinario: "8" }
+        ]
+    }
+})
+
+db[collectionName].insertOne({
+    materia: "Tecnologias Web II",
+    semestre: "24-25A",
+    alumno: {
+        nombreApellidos: "Nadia Fuentes",
+        matricula: "21349012",
+        calificaciones: [
+            { parciales: [{ numero: "1", nota: "8" }, { numero: "2", nota: "7" }, { numero: "3", nota: "8" }] },
+            { ordinario: "9" }
+        ]
+    }
+})
+
+db[collectionName].insertOne({
+    materia: "Tecnologias Web II",
+    semestre: "24-25A",
+    alumno: {
+        nombreApellidos: "Oscar Ramirez",
+        matricula: "31349013",
+        calificaciones: [
+            { parciales: [{ numero: "1", nota: "7" }, { numero: "2", nota: "8" }, { numero: "3", nota: "9" }] },
+            { ordinario: "10" }
+        ]
+    }
+})
+
+db[collectionName].insertOne({
+    materia: "Tecnologias Web II",
+    semestre: "24-25A",
+    alumno: {
+        nombreApellidos: "Patricia Delgado",
+        matricula: "41349014",
+        calificaciones: [
+            { parciales: [{ numero: "1", nota: "9" }, { numero: "2", nota: "9" }, { numero: "3", nota: "8" }] },
+            { ordinario: "10" }
+        ]
+    }
+})
+
+db[collectionName].insertOne({
+    materia: "Tecnologias Web II",
+    semestre: "24-25A",
+    alumno: {
+        nombreApellidos: "Raul Hernandez",
+        matricula: "51349015",
+        calificaciones: [
+            { parciales: [{ numero: "1", nota: "6" }, { numero: "2", nota: "7" }, { numero: "3", nota: "6" }] },
+            { ordinario: "8" }
+        ]
+    }
+})
+
+db[collectionName].insertOne({
+    materia: "Tecnologias Web II",
+    semestre: "24-25A",
+    alumno: {
+        nombreApellidos: "Sara Reyes",
+        matricula: "61349016",
+        calificaciones: [
+            { parciales: [{ numero: "1", nota: "8" }, { numero: "2", nota: "8" }, { numero: "3", nota: "7" }] },
+            { ordinario: "9" }
+        ]
+    }
+})
+
+db[collectionName].insertOne({
+    materia: "Tecnologias Web II",
+    semestre: "24-25A",
+    alumno: {
+        nombreApellidos: "Tomas Villalobos",
+        matricula: "71349017",
+        calificaciones: [
+            { parciales: [{ numero: "1", nota: "7" }, { numero: "2", nota: "6" }, { numero: "3", nota: "8" }] },
+            { ordinario: "8" }
+        ]
+    }
+})
+
+db[collectionName].insertOne({
+    materia: "Tecnologias Web II",
+    semestre: "24-25A",
+    alumno: {
+        nombreApellidos: "Ulises Navarro",
+        matricula: "81349018",
+        calificaciones: [
+            { parciales: [{ numero: "1", nota: "9" }, { numero: "2", nota: "9" }, { numero: "3", nota: "10" }] },
+            { ordinario: "10" }
+        ]
+    }
+})
+
+db[collectionName].insertOne({
+    materia: "Tecnologias Web II",
+    semestre: "24-25A",
+    alumno: {
+        nombreApellidos: "Valeria Silva",
+        matricula: "91349019",
+        calificaciones: [
+            { parciales: [{ numero: "1", nota: "7" }, { numero: "2", nota: "8" }, { numero: "3", nota: "8" }] },
+            { ordinario: "9" }
+        ]
+    }
+})
+
+db[collectionName].insertOne({
+    materia: "Tecnologias Web II",
+    semestre: "24-25A",
+    alumno: {
+        nombreApellidos: "Yahir Ocampo",
+        matricula: "101349020",
+        calificaciones: [
+            { parciales: [{ numero: "1", nota: "6" }, { numero: "2", nota: "7" }, { numero: "3", nota: "6" }] },
+            { ordinario: "8" }
+        ]
+    }
+})
+
 db[collectionName].insertMany([
     {
         materia: "Tecnologias Web II",
